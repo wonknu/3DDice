@@ -131,13 +131,13 @@ window.onload = function ()
     );
     //window.threeElements.push(new WGL_Cube(window.WGL.getThree().scene, 0, 0, 200, 200, 200, null, window.location + 'img/crate.jpg', true));    //window.threeElements.push( new WGL_Plane(WGL.getThree().scene, 0, 0, 200, 200, 0x0000ff, null, true) );
     //window.threeElements.push(new WGL_Sphere(window.WGL.getThree().scene, 0, 0, 200, 50, 50, 0x666666));
-    var floor = new WGL_Plane(WGL.getThree().scene, 0, 0, 2000, 2000, 0x0000ff, null, true);
-    floor.threeElm.doubleSided = true;
+    //var floor = new WGL_Plane(WGL.getThree().scene, 0, 0, 2000, 2000, 0x0000ff, null, true);
+    //floor.threeElm.doubleSided = true;
     //floor.threeElm.rotation.x = 90;
-    floor.threeElm.position.z = -250;
+    //floor.threeElm.position.z = -250;
     
-    window.WGL.getThree().camera.rotation.x = (15 * (Math.PI / 180));
-    window.WGL.getThree().camera.position.y = -500;
+    //window.WGL.getThree().camera.rotation.x = (15 * (Math.PI / 180));
+    //window.WGL.getThree().camera.position.y = -500;
     
     // Ajout de lumieres
     var wglLight = new WGL_Light(window.WGL.getThree().scene);
